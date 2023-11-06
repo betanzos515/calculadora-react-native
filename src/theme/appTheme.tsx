@@ -1,0 +1,53 @@
+import { StyleSheet } from "react-native";
+
+export const themeApp = StyleSheet.create({
+    fondo:{
+        flex:1,
+        backgroundColor:'black',
+    },
+    calculadoraContainer:{
+        flex:1,
+        paddingHorizontal:20,
+        justifyContent:"flex-end"
+    },
+    resultado:{
+        color:'white',
+        fontSize:60,
+        textAlign:'right',
+        marginBottom:10
+    },
+    resultadoPequeño:{
+        color:'gray',
+        fontSize:30,
+        textAlign:'right'
+    },
+    boton:{
+        flex:1,
+        width:80,
+        height:80,
+        borderRadius:100,
+        justifyContent:'center' 
+    },
+    botonTexto:{
+        textAlign:'center',
+        padding:10,
+        fontSize:25,
+        fontWeight:'700',
+        color:'white'
+    },
+    botonGris:{
+        backgroundColor:'#2D2D2D'
+    },
+    botonNegro:{
+        backgroundColor:'#2d2d2d',
+    },
+    botonNaranja:{
+        backgroundColor:'orange',
+    },
+    filaBotones:{
+        flexDirection:'row',
+        justifyContent:'center',
+        gap:10,
+        marginBottom:18
+    }
+});
